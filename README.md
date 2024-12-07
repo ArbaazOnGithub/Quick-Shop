@@ -32,9 +32,9 @@ Quick Shop is a dynamic **e-commerce platform** designed to provide a seamless s
 ## **📸 Screenshots**  
 Add some screenshots of your project to make it visually appealing. Example:  
 - **Homepage**  
-![Homepage Screenshot][(https://github.com/ArbaazOnGithub/Quick-Shop/blob/main/homePage.png)]  
+![Homepage Screenshot](https://github.com/ArbaazOnGithub/Quick-Shop/blob/main/homePage.png)  
 - **Admin Panel**  
-![Admin Panel Screenshot][(https://github.com/ArbaazOnGithub/Quick-Shop/blob/main/adminPage.png)]  
+![Admin Panel Screenshot](https://github.com/ArbaazOnGithub/Quick-Shop/blob/main/adminPage.png)  
 
 ---
 
