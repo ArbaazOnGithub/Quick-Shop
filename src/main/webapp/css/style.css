@@ -1,0 +1,120 @@
+html {
+  overflow-x: hidden;
+}
+
+body{ 
+    background: Skyblue;
+}
+
+.nav-item.active:hover {
+    background: #1995AD;
+    cursor: pointer;
+}
+
+.custom-bg {
+    background-color: #00838f!important;
+}
+
+.container{
+    margin-top: 5%;
+}
+.admin .card {
+    border: 1px solid #673ab7;
+    background-color: azure;
+}
+
+.admin .card:hover {
+    background: #1995AD;
+    cursor: pointer;
+}
+
+.list-group-item.active {
+    background-color: #9575cd!important;
+}
+
+.selected-category {
+    background-color: #4db6ac!important; /* Change to the color you prefer for the selected category */
+}
+
+/* Modified hover effect for cards */
+.card:hover {
+    background-color: #1995AD; /* Updated hover color */
+    transition: background-color 0.8s ease; /* Smooth transition effect */
+}
+
+
+
+/*.card-footer:hover {
+    background-color: #ffecb3;
+}*/
+
+.card-sm {
+    width: 300px; /* Corrected length to width */
+    background-color: #b2dfdb!important;
+    color: white;
+}
+
+.discount-label {
+    font-size: 15px!important;
+    font-style: italic!important;
+    text-decoration: line-through!important;
+}
+
+.co {
+    color: red;
+}
+
+/* Add hover effect for card-body */
+/*.card-body:hover {
+    background-color: red;  Light blue background on hover 
+    transition: background-color 0.3s ease;  Smooth transition effect 
+}*/
+
+/* Toast Styles */
+#toast {
+    min-width: 300px;
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -120px;
+    background: #00838f;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    font-size: 18px;
+    visibility: hidden;
+    box-shadow: 0px 0px 100px #000;
+}
+
+#toast.display {
+    visibility: visible;
+    animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+
+
+
